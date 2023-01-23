@@ -1,0 +1,26 @@
+.about-sm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .about-sm-container {
+    display: none;
+  }
+}
+
+.about-lg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .about-lg-container {
+    display: block;
+  }
+}
